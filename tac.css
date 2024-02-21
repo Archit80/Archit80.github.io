@@ -1,0 +1,185 @@
+body{
+    background-color: rgba(228, 108, 108, 0.764);
+    position:absolute;
+    top:2vmin;
+}
+
+
+#HeadBox{
+    position: relative;
+    top:5px;
+    margin: 5px 0px 15px 0px;
+    height: 8vmin ;
+
+}
+#MainHead{
+    color: aliceblue;
+   font-family: 'Mochiy Pop One', sans-serif;
+    
+   
+    display:flex;
+        place-content:center;
+        place-items:center;
+      
+      
+        text-shadow: 
+          0 calc(1 * var(--shadow-space)) 0 red,
+          0 calc(2 * var(--shadow-space)) 0 orange,
+          0 calc(3 * var(--shadow-space)) 0 yellow,
+          0 calc(4 * var(--shadow-space)) 0 green,
+          0 calc(5 * var(--shadow-space)) 0 blue,
+          0 calc(6 * var(--shadow-space)) 0 indigo,
+          0 calc(7 * var(--shadow-space)) 0 violet;
+    
+}
+
+@keyframes TextChanger {
+    0% {
+    
+        font-family: 'Belanosima', sans-serif;
+
+    }
+    10% {
+        font-family: 'Bubblegum Sans', sans-serif;
+        
+    } 
+
+    20% {
+        font-family: 'Tektur', sans-serif;
+    } 
+    30% {
+        font-family: 'Salsa', cursive;
+    
+    } 
+    40% {
+        font-family: 'Mochiy Pop One', sans-serif;
+        
+    } 
+    50% {
+        font-family: 'Cinzel', serif;
+    } 
+    60% {
+        font-family: 'Bubblegum Sans', sans-serif;
+       
+    } 
+    70% {
+        font-family: 'Salsa', cursive;
+    } 
+    80% {
+        font-family: 'Noto Serif', serif;;
+    } 
+    90% {
+        font-family: 'Secular One', sans-serif;
+
+    } 
+    100% {
+        font-family: 'Cinzel', serif;
+    } 
+
+    
+} 
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container{
+    height: 65vh;
+    
+    border:5px solid rgba(218, 86, 86, 0.253);
+    display:flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.game{
+    height:60vmin;
+    width:60vmin;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+
+.box{
+    height:15vmin;
+    width: 15vmin;
+    border:none;
+    font-size: 40px;
+    color: rgb(209, 34, 63);
+    margin-top: 0.1vmin;
+    background-color: rgba(255, 255, 255, 0.797);
+}
+
+#reset{
+    
+    height: 7.5vmin;  
+    width: 15vmin; 
+    border-radius:10px;
+    border: none;
+    position: relative;
+    top:3vmin;
+    margin-bottom: 2vmin;
+    color: aliceblue;
+    background-color: rgb(209, 34, 63);
+    font-size: 2.5vmin;
+    font-family:sans-serif;
+    transition: all 0.5s ease-in-out;
+}
+
+#reset:hover{
+    
+    background-color: aliceblue;
+    color:rgb(209, 34, 63);
+    box-shadow:0px 0px 20px rgba(195, 2, 2, 0.704);
+    height: 8vmin;  
+    width: 17vmin; 
+    font-size: 3.25vmin;
+
+}
+
+.hide{
+    display: none;
+}
+:root{
+  --shadow-space:0.05em;
+
+  display:flex;
+  place-content:center;
+  place-items:center;
+  width:100vw;
+  height:100vh;
+ 
+}
+
+#msg{
+    font-family: 'Poppins', sans-serif;
+        
+        display:flex;
+        place-content:center;
+        place-items:center;
+      
+        font-size: 6vmin;
+        font-weight:bold;
+        color: aliceblue;
+        text-shadow: 
+          0 calc(1 * var(--shadow-space)) 0 red,
+          0 calc(2 * var(--shadow-space)) 0 orange,
+          0 calc(3 * var(--shadow-space)) 0 yellow,
+          0 calc(4 * var(--shadow-space)) 0 green,
+          0 calc(5 * var(--shadow-space)) 0 blue,
+          0 calc(6 * var(--shadow-space)) 0 indigo,
+          0 calc(7 * var(--shadow-space)) 0 violet;
+      
+    transition: all 0.5s ease-in-out;
+}
+
+.messageContainer{
+    margin-top: 1vmin;
+}
